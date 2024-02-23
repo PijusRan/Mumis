@@ -1,0 +1,53 @@
+* {
+    --chat_foreground: rgba(255, 255, 255, 0.35);
+    --text-color: #e1e2e2;
+    
+    font-family: 'CascadiaMono';
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+@font-face {
+    font-family: 'CascadiaMono';
+    src: local('CascadiaMono'), url(./font/CascadiaMono.ttf) format('truetype');
+}
+
+.slide-right-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f;
+    transform-origin: right;
+}
+
+.slide-right-out{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f;
+    transform-origin: right;
+}
+
+.slide-left-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f;
+    transform-origin: left;
+}
+
+.slide-left-out{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f;
+    transform-origin: left;
+}

@@ -1,0 +1,161 @@
+#root{
+    background: repeating-linear-gradient(0deg, rgba(233,176,208,1) 9%, rgba(135,127,183,1) 19%, rgba(43,76,150,1) 34%, rgba(36,41,99,1) 43%, rgba(31,20,68,1) 50%, rgba(34,33,88,1) 57%, rgba(43,76,150,1) 75%, rgba(135,127,183,1) 88%, rgba(233,176,208,1) 100%);
+}
+
+.Head{
+    position: sticky;
+    top: 0;
+}
+.DateContainer{
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+
+    background: linear-gradient(90deg, #191a23 0%, #212233 100%);
+    text-align: center;
+}
+.DateContainer > h1{
+    margin: auto;
+    margin-bottom: 0;
+}
+.DateContainer > h2{
+    margin: auto;
+}
+
+.WavesTop{
+    width: 100%;
+}
+
+.Daily{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Daily > h1{
+    margin: 0;
+    margin-bottom: -3vh;
+
+    font-size: 250%;
+    text-align: center;
+    text-shadow: -6px 6px 0px rgba(0,0,0,0.6);
+}
+.DailyList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-top: 3.5vh;
+    padding-bottom: 1.5vh;
+
+    
+    background-color: #D9D9D930;
+    border-radius: 50px;
+}
+.DailyList > label{
+    width: 90%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+}
+.DashWithStar{
+    width: 75%;
+}
+
+
+
+.Weekly{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    padding-bottom: 8%;
+
+    background-color: #1A1B25;
+    border-radius: 50px;
+}
+.Weekly > h2{
+    padding: 8%;
+    margin: 0;
+}
+.WeeklyList{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    background-color: #D9D9D930;
+    border-radius: 50px;
+}
+.WeeklyList > label{
+    text-align: end;
+    padding: 0.5vh;
+    width: 80%;
+}
+
+
+.Footer{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+}
+.Settings{
+    position: fixed;
+    bottom: 1%;
+    left: 41%;
+    width: 18%;
+
+    background-color: transparent;
+    border: none;
+}
+.Settings > img{
+    width: 100%;
+}
+.WavesBottom{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+}
+
+
+
+.Backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    backdrop-filter: blur(10px);
+}
+.SettingsModal{
+    margin: auto;
+    width: 90%;
+    background-color: black;
+}
+.modalTypes{
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+}
+.modalTypes > button{
+    width: 45%;
+    height: 5vh;
+}
+.modalTaskList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+}
+.modalTaskList > div{
+    display: inline-flex;
+    width: 90%;
+}
