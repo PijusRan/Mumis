@@ -112,24 +112,24 @@ function SettingsModal({toggleModal}){
             <div className='SettingsModal'>
                 <h2>Your task list</h2>
                 <div className='modalTypes'>
-                    <button>Daily</button>
-                    <button>Weekly</button>
+                    <motion.button whileTap={{scale:0.9}} className='modalButtonInactive'>Daily</motion.button>
+                    <motion.button whileTap={{scale:0.9}} className='modalButtonInactive'>Weekly</motion.button>
                 </div>
                 
-                <div className='modalTaskList'>
+                <section className='modalTaskList'>
                     {dailyArray.map((item) =>
-                        <div>
-                            <button className='x'>✖</button>
+                        <div key='taskString'>
+                            <motion.button whileHover={{scale:1.1}} className='x'>✖</motion.button>
                             <p>{item.taskString}</p>
                         </div>
                     )}
-                </div>
-                <div>
-                    <input/>
+                </section>
+                <section className='modalInputTask'>
+                    <input placeholder='ADD NEW TASK'/>
                     <button>✦</button>
-                </div>
+                </section>
             </div>
-            <button onClick={toggleModal}> Close </button>
+            <button onClick={toggleModal} className='modalClose'> Close </button>
         </motion.div>
     )
 }
