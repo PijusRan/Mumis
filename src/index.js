@@ -7,7 +7,7 @@ import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom";
 import ErrorPage from './pages/404';
 import Layout from './pages/Layout';
 import Chat from "./pages/Chat";
-import TasksPage from "./pages/Tasks";
+import TasksPage from "./pages/taskPage/TaskPageMain";
 
 //APP
 function App() {

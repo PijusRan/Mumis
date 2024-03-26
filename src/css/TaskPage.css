@@ -51,20 +51,31 @@
     background-color: #D9D9D930;
     border-radius: 50px;
 }
-.DailyList > label{
-    width: 90%;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+.DailyItem{
+    display: flex;
+    align-items: center;
 
-    font-size: 150%;
+    width: 90%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
+}
+
+.Checkmark{
+    min-height: 2rem;
+    aspect-ratio: 1/1;
+    margin-right: 1rem;
+
+    font-size: 1.5rem;
+    background-color: #00000000;
+    border-radius: 10px;
 }
 .DashWithStar{
     width: 75%;
 }
-
-
 
 .Weekly{
     max-width: 90%;
@@ -88,7 +99,6 @@
 
     margin-left: auto;
     margin-right: auto;
-    
 
     background-color: #D9D9D930;
     border-radius: 50px;
@@ -124,8 +134,6 @@
 
     width: 100%;
 }
-
-
 
 .Backdrop{
     position: absolute;
@@ -207,6 +215,12 @@
 .modalButtonInactive{
     border: none;
     background-color: #1e345f25;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.modalButtonActive{
+    border: none;
+    background-color: #B1D0FF40;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
