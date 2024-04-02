@@ -5,9 +5,9 @@ import { AnimatePresence } from 'framer-motion';
 
 import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom";
 import ErrorPage from './pages/404';
-import Layout from './pages/Layout';
-import Chat from "./pages/Chat";
-import TasksPage from "./pages/taskPage/TaskPageMain";
+import Layout from './pages/Home/Layout';
+import Chat from "./pages/Chat/Chat";
+import TasksPage from "./pages/Tasks/TaskPageMain";
 
 //APP
 function App() {

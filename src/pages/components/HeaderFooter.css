@@ -1,0 +1,33 @@
+.Head{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.DateContainer{
+    height: 12vh;
+
+    background: linear-gradient(90deg, #191a23 0%, #212233 100%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+}
+.WavesTop{
+    width: 100%;
+}
+
+.Footer{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+}
+.WavesBottom{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    max-height: 10%;
+}

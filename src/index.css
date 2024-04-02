@@ -20,6 +20,8 @@
     height: 100%;
     background: #0f0f0f;
     transform-origin: right;
+
+    z-index: 5;
 }
 
 .slide-right-out{
@@ -30,6 +32,8 @@
     height: 100%;
     background: #0f0f0f;
     transform-origin: right;
+
+    z-index: 5;
 }
 
 .slide-left-in {
@@ -40,6 +44,8 @@
     height: 100%;
     background: #0f0f0f;
     transform-origin: left;
+
+    z-index: 5;
 }
 
 .slide-left-out{
@@ -50,4 +56,6 @@
     height: 100%;
     background: #0f0f0f;
     transform-origin: left;
+
+    z-index: 5;
 }
