@@ -7,8 +7,8 @@ import './HeaderFooter.css';
 //FOOTER
 export default function Footer(){
     return(
-        <div className='Footer'>
+        <footer className='Footer'>
             <img src={WavesBottom} className='WavesBottom' alt=""/>
-        </div>
+        </footer>
     )
 }

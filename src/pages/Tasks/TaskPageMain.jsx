@@ -1,6 +1,7 @@
 //REACT
 import { useState } from 'react';
 import {motion, AnimatePresence} from "framer-motion";
+import {Link } from "react-router-dom";
 import {transition_left} from '../../transition.js';
 import "./TaskPage.css";
 
@@ -13,6 +14,8 @@ import Footer from "../components/Footer.jsx";
 
 //Assets
 import TaskSettings from "../../img/TaskSettings.svg";
+import backButton from '../../img/BackButton.svg';
+
 
 /* -----    APP    ----- */
 function TasksPage(){
@@ -42,6 +45,12 @@ function TasksPage(){
             <motion.button whileHover={{scale:1.1}}  className='Settings' whileTap={{scale:0.9}} onClick={toggleModal}>
                     <img src={TaskSettings} alt=""/>
             </motion.button>
+
+            <Link to={`/`}>
+                <button className='backButton'>
+                    <img src={backButton} alt="Back"/>
+                </button>
+            </Link>
         </>
     )
 }

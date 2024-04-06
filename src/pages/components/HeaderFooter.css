@@ -4,13 +4,13 @@
     z-index: 1;
 }
 .DateContainer{
-    height: 12vh;
+    height: 10vh;
 
     background: linear-gradient(90deg, #191a23 0%, #212233 100%);
     
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     overflow: hidden;
     text-align: center;
 }

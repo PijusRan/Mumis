@@ -227,3 +227,22 @@ p{
 .modalClose{
     top: 80%;
 }
+
+.backButton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+    width: 10%;
+    height: 10%;
+    margin-top: 1%;
+    margin-left: 5%;
+
+    background-color: #00000000;
+    border: none;
+}
+.backButton > img{
+    max-width: 100%;
+    max-height: 100%;
+}

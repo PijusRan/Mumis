@@ -1,10 +1,15 @@
 * {
     --chat_foreground: rgba(255, 255, 255, 0.35);
     --text-color: #e1e2e2;
+    --transition-color: #0f0f0f;
     
     font-family: 'CascadiaMono';
     font-weight: 500;
     color: var(--text-color);
+}
+
+h1, h2, h3, h4{
+    margin: 0;
 }
 
 @font-face {
@@ -18,7 +23,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #0f0f0f;
+    background: var(--transition-color);
     transform-origin: right;
 
     z-index: 5;
@@ -30,7 +35,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #0f0f0f;
+    background: var(--transition-color);
     transform-origin: right;
 
     z-index: 5;
@@ -42,7 +47,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #0f0f0f;
+    background: var(--transition-color);
     transform-origin: left;
 
     z-index: 5;
@@ -54,7 +59,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #0f0f0f;
+    background: var(--transition-color);
     transform-origin: left;
 
     z-index: 5;
